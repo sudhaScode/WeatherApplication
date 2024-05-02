@@ -1,4 +1,4 @@
-## Dynamic array elemets
+## Managed Dynamic array for pagenation algorithm
 <br>
 
 ## if you have a asynchronous function outside, and calling inside useEffect whose callback also async throughs critical error, so must be keep normal callback function if you have external fecth function,
