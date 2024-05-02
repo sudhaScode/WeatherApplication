@@ -1,0 +1,58 @@
+.header{
+    background-color:rgba(102, 169, 227, 0.775);
+    border-radius: 5px;
+    box-shadow: 1px 2px  3px;
+    }
+.content{
+    margin: 0 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: fantasy;
+    color: rgba(0, 0, 0, 0.834);
+    align-items: center;
+    font-size: 1rem;
+}
+.content h1{
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(0, 0, 0, 0.5) 100%);
+
+    mix-blend-mode: multiply;
+}
+.explore{
+    font-size: 2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.content button:hover{
+    background-color: rgb(144, 193, 237);
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%; 
+   
+}
+.input-container label{
+   font-size: 2rem;
+   position: absolute;
+   left:30px;
+   padding: 5px;
+   background-color: black;
+   color: aliceblue;
+   border-radius: 10px;
+
+}
+.input-container input{
+ 
+    max-width: 30vw;
+    background-color: rgba(0, 0, 0, 0.832);
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    padding-left:20px ;
+    color: rgb(158, 186, 210);
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

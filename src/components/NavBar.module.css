@@ -1,0 +1,29 @@
+.city-container{
+    margin-top: 10px;
+
+    display: flex;
+    justify-content:center;
+    background-color: aliceblue;
+    flex-direction: row;
+}
+
+.loader{
+    text-align: center;
+}
+button{
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    font-size: medium;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px;
+
+}
+.navigation{
+    font-size: 2rem;
+    font-weight: bold;
+    width: 60px;
+}
+.city-button-active{
+    background-color: rgb(73, 187, 117);
+}

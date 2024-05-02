@@ -1,0 +1,80 @@
+
+.location-container{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     font-size: 2rem;
+     margin-top: 3vh;
+}
+.card{
+    border: 3px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction:row;
+    padding:0px 10px;
+    justify-content:center;
+    align-items:center;
+}
+.weather{
+    margin:3px 10px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.weather div{
+  font-weight: bold;
+  font-size: 1.6rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.weather ul{
+ list-style: none;
+ margin:0px;
+ padding:0px;
+ font-size: 1.3rem;
+ color: rgb(49, 48, 48);
+}
+.report {
+ display:flex;
+ flex-direction:row;
+ justify-content:center;
+ align-items:center;
+}
+.report img{
+
+}
+.divider{
+height:30px;
+margin:0 10px;
+border:1px solid black;
+}
+.degree div{
+    width:4px;
+    height:4px;
+    border-radius:50%;
+    border:2px solid black;
+}
+.degree{
+    display:flex;
+    font-size: 18px;
+}
+.temperature{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.stats{
+    padding-left:10px;
+    display:flex;
+    flex-direction:column;
+    font-size:1rem;
+    font-weight:700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.stats p{
+    padding:0px;
+    margin:0px    
+}
