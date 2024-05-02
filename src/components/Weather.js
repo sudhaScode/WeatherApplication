@@ -12,7 +12,7 @@ function Weather() {
         <div>
             {typeof (city) !== "object" ? <h1>{city}</h1> :
                 <div className={styles["location-container"]}>
-                    <p>Weather at {city.name} {city.country}</p>
+                    <p className={styles.title}>Weather at {city.name} {city.country}</p>
                     <Card city={city} />
                 </div>}
         </div>

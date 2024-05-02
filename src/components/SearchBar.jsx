@@ -58,7 +58,7 @@ function SearchBar(props) {
     return (
         <div className={styles["input-container"]}>
             <form onSubmit={(event) => onSubmitHandler(event)}>
-                <label for="xcity">Search</label>
+                <label htmlFor="xcity">Search</label>
                 <input id ="xcity"placeholder={`${props.name}...`} name="xcity" type="text" required onChange={()=>cityContext.updateReq(false)} />
                 
             </form>

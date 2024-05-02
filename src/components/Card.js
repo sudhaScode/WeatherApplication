@@ -1,6 +1,8 @@
 import styles from "./Weather.module.css";
 
 function Card({ city }) {
+
+    //console.log("DEBUG::CURRENT LOCATION", city)
     const { lastUpdated, weatherCondition, cloudCoverage, temperature, windSpeed, humidity } = city.weather;
     const dateObject = new Date(lastUpdated);
     // Get the weekday name (full format)

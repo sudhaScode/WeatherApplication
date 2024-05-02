@@ -5,11 +5,13 @@ import Weather from "./components/Weather"
 import React, { useContext } from "react";
 import { CityContext } from "./store/WeatherProvider"
 import NavBar from "./components/NavBar";
+import CurrentCity from "./components/CurrentCity";
 
 export default function App() {
   const cityContext = useContext(CityContext);
   const check = cityContext.req;
-  //console.log("Fectching::", check)
+  const location = cityContext.currentLocation;
+  console.log("Fectching::", location)
   return (
     <div className="App">
       <AppBar />
@@ -17,6 +19,9 @@ export default function App() {
         <SearchBar name="Enter city" />
         <NavBar/>
         {check && <Weather />}
+        
+        {location &&<> 
+        <CurrentCity/></>}
       </main>
     </div>
   );

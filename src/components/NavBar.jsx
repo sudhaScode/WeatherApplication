@@ -98,7 +98,7 @@ function NavBar() {
         setIsLoading(false);
     }
     const userEvents = async(fetchcity)=>{
-        console.log(fetchcity)
+        //console.log(fetchcity)
         setIsLoading(true);
         const result = await fetchAPI(fetchcity);
         const city=await formatResponse(result);
@@ -118,9 +118,10 @@ function NavBar() {
 
     useEffect(() => {
         //getCurrentCity();
-        //fetchCityWeather();
+        fetchCityWeather();
         //console.log(customCities[active])
-        onClickHandler(active);
+        //onClickHandler(active);
+
     }, [])
 
     return (

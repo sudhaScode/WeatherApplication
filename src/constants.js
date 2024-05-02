@@ -11,7 +11,7 @@ export const cities = [
     "Shimla",
     "Dharamshala",
     "Ranchi",
-    "Bengaluru",
+    "Bangalore",
     "Thiruvananthapuram",
     "Tirupati",
     "Amaravati",
@@ -37,7 +37,7 @@ export const cities = [
         city = "Bangalore";
     }
     let URL = `https://api.weatherapi.com/v1/current.json?key=dc27acb7394c462a8a6133905240105&q=${city}`;
-    //console.log("CUSTOM URL::", URL)
+    console.log("CUSTOM URL::", URL)
     try {
         const response = await axios(URL);
 
@@ -58,7 +58,7 @@ export const cities = [
     }
 }
 export const formatResponse= async(result)=>{
-   // console.log("succes", result)
+   console.log("succes", result)
     if (typeof (result) === "object") {
       
         const { current, location } = await result;
