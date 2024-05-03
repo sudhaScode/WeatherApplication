@@ -6,6 +6,7 @@
 ## If you need to utilize state for fecthing or any other implementation, call those operation inside side effect handler i.e useEffect with dependency array element with that state.
 
 ## Don't worry about state updation when using state management with context provider to the components. The time when it comes to use the state directly get it from context. surely the state gets updated before you using it.
+## Pagenation  with collections of cities.
 <br>
 Check Out at - https://weatherbyreact.web.app/
 
